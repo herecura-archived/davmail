@@ -1,6 +1,6 @@
 pkgbase = davmail
 	pkgdesc = a POP/IMAP/SMTP/Caldav/LDAP gateway for the exchange service
-	pkgver = 4.6.2.2377
+	pkgver = 4.7.0.2408
 	pkgrel = 1
 	url = http://davmail.sourceforge.net/
 	install = davmail.install
@@ -9,8 +9,8 @@ pkgbase = davmail
 	license = GPL
 	makedepends = apache-ant
 	depends = java-runtime
-	source = http://downloads.sourceforge.net/project/davmail/davmail/4.6.2/davmail-src-4.6.2-2377.tgz
-	sha256sums = 6fa20ae7a39dbce719d03a3cdf7ccbd959428617d440f69b72be928566d3e86e
+	source = http://downloads.sourceforge.net/project/davmail/davmail/4.7.0/davmail-src-4.7.0-2408.tgz
+	sha256sums = 85ad3e01f3209205a00f25cae372bb78353bf22fbfba1dfcb19249b303342333
 
 pkgname = davmail
 
