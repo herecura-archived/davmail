@@ -1,8 +1,8 @@
 pkgname=davmail
-_pkgver=4.7.2
-_rev=2427
-pkgver=4.7.2.2427
-pkgrel=2
+_pkgver=4.7.3
+_rev=2438
+pkgver=4.7.3.2438
+pkgrel=1
 pkgdesc="a POP/IMAP/SMTP/Caldav/LDAP gateway for the exchange service"
 arch=('i686' 'x86_64')
 url="http://davmail.sourceforge.net/"
@@ -12,7 +12,7 @@ depends=('java-runtime' 'desktop-file-utils' 'hicolor-icon-theme')
 source=(
 	"http://downloads.sourceforge.net/project/$pkgname/$pkgname/$_pkgver/$pkgname-src-$_pkgver-$_rev.tgz"
 )
-sha256sums=('bf66cd4e735329d9862c8e01c9749e2d21d5beddc8090545d705b9aa8d04dbe7')
+sha256sums=('3940a7f6aa44cb3c419c2a4ede71e465b29b7076c9ed1bb0abe251a60378c208')
 
 build() {
 	cd "$pkgname-src-$_pkgver-$_rev"
